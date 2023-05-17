@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
+
+body {
+  background: #183059;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-pd {
+  display: flex;
+  align-items: center;
+}
+
+.section-center {
+  position: relative;
+  margin: auto;
+  width: 650px;
+  height: 480px;
+}
+.deadline {
+  display: flex;
+  
+   }
+.deadline-format{  
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.deadline-format div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #F6F4F3;
+}
+
+.giveaway {
+  color: #F6F4F3;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+ 
+}
+p{
+  color: #F6F4F3;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+
+}
+.expired{
+  color: #F6F4F3;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
